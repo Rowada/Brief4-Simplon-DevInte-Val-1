@@ -199,13 +199,17 @@ div h2 {
   margin-bottom: 20px;
 }
 
-.divone ul li {
+.divone ul li i {
   list-style: none;
   margin: 15px;
 }
 
 .divone .num {
   color: blue;
+}
+
+.divone .num i{
+  color: black;
 }
 
 .divone .reseaux ul li {
@@ -216,6 +220,14 @@ div h2 {
   justify-content: center;
 }
 
+.divone .reseaux i{
+  display: inline;
+  align-items: center;
+  padding: 15px;
+}
+.placement1 img {
+  padding-bottom: 15px;
+}
 .placement1 img h1 i {
   display: flex;
   justify-content: center;
@@ -232,6 +244,13 @@ div h2 {
   display: flex;
   justify-content: center;
   flex-direction: row;
+}
+
+.placement3 ul li {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 20px;
 }
 
 .divone .reseaux2 ul li {
