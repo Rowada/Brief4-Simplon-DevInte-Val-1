@@ -168,7 +168,7 @@ header .fas {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
-  font-family: "Amiri", serif;
+  font-family: "Maitree", light;
   font-size: 1.2em;
   margin-right: 5px;
   right: 10px;
@@ -178,7 +178,7 @@ header .fas {
 
 .apropos_div{
   width: 1750px;
-  height: 700px;
+  height: 800px;
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
