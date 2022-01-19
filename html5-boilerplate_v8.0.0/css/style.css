@@ -375,10 +375,18 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  border: 2px solid #000;
+  border-radius: 0px 10px 0px 10px;
+  padding: 6px;
 }
 .sav_grille .sav_box img {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
+}
+.sav_grille .sav_box .sav_content {
+  width: 280px;
+  padding-left: 10px;
+  font-family: "Maitree", cursive;
 }
 @media screen and (max-width: 1200px) {
   .sav_grille {
@@ -386,7 +394,6 @@
     grid-template-columns: repeat(2, 40%);
     justify-content: center;
     gap: 1em;
-    margin-left: 30px;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 920px) {
@@ -395,16 +402,23 @@
     grid-template-columns: 60%;
     justify-content: center;
     gap: 1em;
-    margin-left: 30px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 600px) {
   .sav_grille {
     display: grid;
-    grid-template-columns: 80%;
+    grid-template-columns: 100%;
     justify-content: center;
     gap: 1em;
-    margin-left: 30px;
+  }
+  .sav_grille .sav_box img {
+    width: 60px;
+    height: 60px;
+  }
+  .sav_grille .sav_box .sav_content {
+    width: 150px;
+    padding-left: 10px;
+    font-family: "Maitree", cursive;
   }
 }
 
@@ -537,15 +551,14 @@ li {
 }
 .contact-block2 {
   width: 100%;
- grid-column: 2;
-background-color: #ffffff;
-gap: 10px;
-display: flex;
-flex-direction: column;
-padding: 9px 20px 0px 20px;
-border-radius: 0px 30px 0px 30px;
-font-size: 25px;
-
+  grid-column: 2;
+  background-color: #ffffff;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 9px 20px 0px 20px;
+  border-radius: 0px 30px 0px 30px;
+  font-size: 25px;
 }
 .contact-block2 ul {
   list-style-type: none;
@@ -560,18 +573,18 @@ font-size: 25px;
 }
 .form-envoyer {
   display: flex;
-align-items: center;
-justify-content: center;
-margin: 0 auto;
-width: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 50%;
 }
 .form-envoyer input {
-    padding: 10px 10px 10px 10px;
-    border-radius: 25px 0px 25px 0px;
-    background-color: #000c;
-    color: white;
-    box-shadow: -1px 1px 20px 6px;
-    cursor: pointer;
+  padding: 10px 10px 10px 10px;
+  border-radius: 25px 0px 25px 0px;
+  background-color: #000c;
+  color: white;
+  box-shadow: -1px 1px 20px 6px;
+  cursor: pointer;
 }
 .contact-block3 {
   width: 100%;
@@ -579,10 +592,9 @@ width: 50%;
 }
 .contact-block3 iframe {
   width: 100%;
-height: 300px;
-box-shadow:  6px 0px 6px rgb(0 0 0 / 40%);
-margin-bottom: 15px;
-
+  height: 300px;
+  box-shadow: 6px 0px 6px rgb(0 0 0 / 40%);
+  margin-bottom: 15px;
 }
 .form-radius {
   border-radius: 15px 0px 15px 0px;
