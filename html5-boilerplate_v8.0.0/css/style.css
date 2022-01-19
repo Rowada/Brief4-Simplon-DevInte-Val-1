@@ -266,33 +266,27 @@
   margin-bottom: 50px;
   font-family: "Maitree", light;
   font-size: 1.2em;
-  margin-right: 5px;
   right: 10px;
   top: 5px;
-  padding: 5px;
+  padding: auto;
+}
+
+.apropos_para {
+  justify-content: center;
+  padding: 60px;
+  font-size: 1.3em;
 }
 
 .apropos_div {
-  width: 1750px;
-  height: 800px;
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
   padding: 50px;
-  color: white;
-  background-image: linear-gradient(
-    to top,
-    #0c3483 0%,
-    #a2b6df 100%,
-    #6b8cce 100%,
-    #a2b6df 100%
-  );
+  background: 100% linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+  gap: 25px;
 }
 
-.apropos_div h3 p {
-  text-align: center;
-  padding: 10px;
-}
+
 .apropos_div img {
   object-fit: cover;
   margin-top: 50px;
@@ -301,12 +295,61 @@
   padding: 15px;
 }
 
+.oneimg {
+  background-color: white;
+  color: black;
+  border-radius: 20px 0 20px 0;
+}
+
+.oneimg img{
+  border-radius: 20px 0 20px 0;
+}
+
+.oneimg p{
+  font-size: 0.8em;
+  text-align: justify;
+  padding: 15px;
+}
+
+.twoimg {
+  background-color: white;
+  color: black;
+  border-radius: 20px 0 20px 0;
+}
+
+.twoimg img{
+  border-radius: 20px 0 20px 0;
+}
+
+.twoimg p{
+  font-size: 0.8em;
+  text-align: justify;
+  padding: 15px;
+}
+
+.threeimg {
+  background-color: white;
+  color: black;
+  border-radius: 20px 0 20px 0;
+}
+
+.threeimg img{
+  border-radius: 20px 0 20px 0;
+}
+
+.threeimg p{
+  font-size: 0.8em;
+  text-align: justify;
+  padding: 15px;
+}
+
+
+
 /*---------------------------------------------------------------------------------*/
 footer {
   padding: 10px;
   justify-content: center;
   align-items: center;
-  margin-left: 300px;
 }
 
 div h1 {
@@ -328,9 +371,11 @@ div h2 {
 
 .divone {
   display: flex;
+  align-items: center;
   justify-content: space-around;
   flex-direction: row;
   margin: 15px;
+  list-style: none;
 }
 
 .divone h1 {
@@ -344,13 +389,16 @@ div h2 {
 
 .divone .num {
   color: blue;
+  list-style: none;
 }
 
 .divone .num i {
   color: black;
+  list-style: none;
 }
 
 .divone .reseaux ul li {
+  list-style: none;
   height: 50px;
   width: 50px;
   color: black;
@@ -362,6 +410,7 @@ div h2 {
   display: inline;
   align-items: center;
   padding: 15px;
+  list-style: none;
 }
 .placement1 img {
   padding-bottom: 15px;
@@ -377,6 +426,9 @@ div h2 {
   justify-content: center;
   flex-direction: row;
 }
+.placement2 ul li {
+  list-style: none;
+}
 
 .placement3 h1 i {
   display: flex;
@@ -385,6 +437,7 @@ div h2 {
 }
 
 .placement3 ul li {
+  list-style: none;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -392,6 +445,7 @@ div h2 {
 }
 
 .divone .reseaux2 ul li {
+  list-style: none;
   height: 50px;
   width: 50px;
   color: black;
@@ -405,6 +459,7 @@ div h2 {
   padding: 10px;
   background-color: black;
   color: white;
+  list-style: none;
 }
 
 .divtwo ul li {
