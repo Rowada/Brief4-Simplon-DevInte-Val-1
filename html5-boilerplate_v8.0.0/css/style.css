@@ -267,15 +267,19 @@
   margin-bottom: 50px;
   font-family: "Maitree", light;
   font-size: 1.2em;
-  right: 10px;
-  top: 5px;
   padding: auto;
 }
 
 .apropos_para {
-  justify-content: center;
+  margin: 0 auto;
   padding: 60px;
   font-size: 1.3em;
+  max-width: 1400px;
+  text-align: justify;
+}
+
+.apropos_para h1{
+  font-family: "Amiri", serif;
 }
 
 .apropos_div {
