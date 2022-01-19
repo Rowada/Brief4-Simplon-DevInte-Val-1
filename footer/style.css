@@ -1,90 +1,9 @@
-footer {
-  padding: 10px;
-  justify-content: center;
+* {
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  display: flex;
   align-items: center;
-  margin-left: 300px;
-}
-
-div h1 {
-  text-align: center;
-}
-
-div h2 {
-  text-align: center;
-}
-.logo_footer {
-  height: 80px;
-  width: auto;
-}
-
-.logo_footer img {
-  object-fit: contain;
-  height: 100%;
-}
-
-.divone {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  margin: 15px;
-}
-
-.divone h1 {
-  margin-bottom: 20px;
-}
-
-.divone ul li {
-  list-style: none;
-  margin: 15px;
-}
-
-.divone .num {
-  color: blue;
-}
-
-.divone .reseaux ul li {
-  height: 50px;
-  width: 50px;
-  color: black;
-  display: inline;
-  justify-content: center;
-}
-
-.placement1 img h1 i {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.placement2 h1 i {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.placement3 h1 i {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.divone .reseaux2 ul li {
-  height: 50px;
-  width: 50px;
-  color: black;
-  display: inline;
-}
-
-.divtwo ul {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 10px;
-  background-color: black;
-  color: white;
-}
-
-.divtwo ul li {
-  list-style: none;
-  margin: 15px;
+  justify-content: space-between;
 }
