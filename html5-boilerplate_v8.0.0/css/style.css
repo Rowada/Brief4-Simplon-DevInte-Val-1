@@ -182,6 +182,7 @@
 
 .grille {
   display: grid;
+  max-width: 1400px;
   grid-template-columns: repeat(3, 30%);
   justify-content: center;
   gap: 1em;
