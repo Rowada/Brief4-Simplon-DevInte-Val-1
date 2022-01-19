@@ -271,6 +271,12 @@
   padding: auto;
 }
 
+.apropos_para {
+  justify-content: center;
+  padding: 60px;
+  font-size: 1.4em;
+}
+
 .apropos_div {
   width: 1750px;
   height: 800px;
@@ -280,7 +286,6 @@
   padding: 50px;
   background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
   gap: 25px;
-  border-radius: white 20px;
 }
 
 
@@ -295,16 +300,49 @@
 .oneimg {
   background-color: white;
   color: black;
+  border-radius: 20px 0 20px 0;
+}
+
+.oneimg img{
+  border-radius: 20px 0 20px 0;
+}
+
+.oneimg p{
+  font-size: 0.8em;
+  text-align: justify;
+  padding: 15px;
 }
 
 .twoimg {
   background-color: white;
   color: black;
+  border-radius: 20px 0 20px 0;
+}
+
+.twoimg img{
+  border-radius: 20px 0 20px 0;
+}
+
+.twoimg p{
+  font-size: 0.8em;
+  text-align: justify;
+  padding: 15px;
 }
 
 .threeimg {
   background-color: white;
   color: black;
+  border-radius: 20px 0 20px 0;
+}
+
+.threeimg img{
+  border-radius: 20px 0 20px 0;
+}
+
+.threeimg p{
+  font-size: 0.8em;
+  text-align: justify;
+  padding: 15px;
 }
 
 /*---------------------------------------------------------------------------------*/
