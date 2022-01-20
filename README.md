@@ -9,7 +9,7 @@ Ce projet nous a été fournis avec une maquette version desktop et mobile ainsi
 On y trouve quatre pages, *La boutique*, *A propos*, *Contact* et *SAV*.
 ## Bénéfice du projet :
 Pour notre organisation, nous nous sommes servi de *Trello* ce qui nous a permis de mieux nous organiser et de bien nous départager le travaille.
-Il nous a aussi permis de nous exercer dans l'utilisation des medias-ont et de comprendre l'importance du responsive design dans l'élaboration d'un projet.
+Il nous a aussi permis de nous exercer dans l'utilisation des Medias-queries et de comprendre l'importance du responsive design dans l'élaboration d'un projet.
 ## Auteurs du projet
 
 - [@Josué](https://www.github.com/Rowada)
