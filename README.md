@@ -6,7 +6,7 @@ dans le cadre d'une formation et avait pour but de nous faire progresser dans l'
 
 ## Contenu : 
 Ce projet nous a été fournis avec une maquette version desktop et mobile ainsi qu'une charte graphique imposer avec la possibilité d'apporter de légères améliorations.
-
+On y trouve quatre pages, *La boutique*, *A propos*, *Contact* et *SAV*.
 ## Bénéfice du projet :
 Pour notre organisation, nous nous sommes servi de *Trello* ce qui nous a permis de mieux nous organiser et de bien nous départager le travaille.
 Il nous a aussi permis de nous exercer dans l'utilisation des medias-ont et de comprendre l'importance du responsive design dans l'élaboration d'un projet.
