@@ -36,7 +36,6 @@ html {
   cursor: pointer;
   z-index: 2;
 }
-
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
@@ -77,13 +76,14 @@ html {
 .menu__item {
   display: block;
   padding: 12px 24px;
-  color: #333;
+  color: #000;
   font-size: 25px;
   font-weight: 600;
   text-decoration: none;
   transition-duration: 0.25s;
   font-family: "Amiri", serif;
 }
+
 .menu__box .icone {
   display: inline;
   align-items: center;
@@ -95,7 +95,7 @@ html {
   font-size: 30px;
 }
 .menu__item:hover {
-  background: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  background: rgba(0, 0, 0, 0.39);
 }
 .panier {
   position: fixed;
@@ -241,66 +241,7 @@ html {
   object-fit: cover;
   border-radius: 5px;
 }
-@media screen and (max-width: 1200px) {
-  .grille {
-    display: grid;
-    grid-template-columns: repeat(2, 40%);
-    justify-content: center;
-    gap: 1em;
-    margin-left: 30px;
-  }
-  .banniere {
-    height: 100%;
-  }
-  .banniere h2 {
-    font-size: 2.5em;
-    width: 500px;
-  }
-  .banniere p {
-    font-size: 1.3em;
-    width: 500px;
-  }
-}
-@media screen and (min-width: 600px) and (max-width: 920px) {
-  .grille {
-    display: grid;
-    grid-template-columns: 60%;
-    justify-content: center;
-    gap: 1em;
-    margin-left: 30px;
-  }
-  .banniere {
-    height: 100%;
-  }
-  .banniere h2 {
-    font-size: 2em;
-    width: 350px;
-  }
-  .banniere p {
-    font-size: 1.2em;
-    width: 350px;
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 600px) {
-  .grille {
-    display: grid;
-    grid-template-columns: 80%;
-    justify-content: center;
-    gap: 1em;
-    margin-left: 30px;
-  }
-  .banniere {
-    height: 100%;
-  }
-  .banniere h2 {
-    font-size: 1.5em;
-    width: 200px;
-  }
-  .banniere p {
-    font-size: 0.6em;
-    width: 200px;
-  }
-}
+
 /*---------------------------------------------------------------------------------*/
 .apropos_bloc {
   text-align: center;
@@ -308,7 +249,6 @@ html {
   margin-bottom: 50px;
   font-family: "Maitree", cursive;
   font-size: 1.2em;
-  padding: auto;
 }
 
 .apropos_para {
@@ -356,48 +296,6 @@ html {
   padding: 15px;
 }
 
-@media screen and (max-width: 1200px) {
-  .apropos_bloc {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-  }
-
-  .apropos_div {
-      flex-direction: column;
-  }
-}
-
-@media screen and (min-width: 600px) and (max-width: 920px) {
-  .apropos_bloc {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-  }
-
-  .apropos_div {
-      flex-direction: column;
-
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 600px) {
-  .apropos_bloc {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-  }
-
-  .apropos_div {
-      flex-direction: column;
-  }
-  .apropos_div img {
-      width: 250px;
-      height: 250px;
-      font-size: 1.3em;
-  }
-}
-
 /*---------------------------------------------------------------------------------*/
 .sav_titre {
   max-width: 1200px;
@@ -436,39 +334,6 @@ html {
   width: 280px;
   padding-left: 10px;
   font-family: "Maitree", cursive;
-}
-@media screen and (max-width: 1200px) {
-  .sav_grille {
-    display: grid;
-    grid-template-columns: repeat(2, 40%);
-    justify-content: center;
-    gap: 1em;
-  }
-}
-@media screen and (min-width: 600px) and (max-width: 920px) {
-  .sav_grille {
-    display: grid;
-    grid-template-columns: 60%;
-    justify-content: center;
-    gap: 1em;
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 600px) {
-  .sav_grille {
-    display: grid;
-    grid-template-columns: 100%;
-    justify-content: center;
-    gap: 1em;
-  }
-  .sav_grille .sav_box img {
-    width: 60px;
-    height: 60px;
-  }
-  .sav_grille .sav_box .sav_content {
-    width: 150px;
-    padding-left: 10px;
-    font-family: "Maitree", cursive;
-  }
 }
 
 /*---------------------------------------------------------------------------------*/
@@ -529,26 +394,7 @@ li {
   padding: 3px;
   font-family: "Maitree", cursive;
 }
-@media screen and (min-width: 300px) and (max-width: 1000px) {
-  .footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-  .footer-content .logo-footer img {
-    width: 300px;
-  }
-  .footer-content .content {
-    width: 300px;
-  }
-}
-@media screen and (min-width: 300px) and (max-width: 700px) {
-  .deuxieme_foot ul li {
-    font-size: 0.8em;
-  }
-}
+
 /*------------------------------CONTACT---------------------------------------*/
 .contact {
   display: grid;
@@ -561,62 +407,6 @@ li {
   font-family: "Maitree", light;
   padding: 2.5% 0% 2.5% 0%;
 }
-
-@media screen and (max-width: 1200px) {
-  .contact {
-    display: grid;
-    max-width: 100%;
-    height: auto;
-    grid-template-columns: 40% 40%;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
-    font-family: "Maitree", light;
-    padding: 2.5% 0% 2.5% 0%;
-    margin: 0px;
-  }
-}
-@media screen and (min-width: 600px) and (max-width: 920px) {
-  .contact {
-    display: grid;
-    
-    height: auto;
-    grid-template-columns: 70%;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    margin-left: 30px;
-     background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
-  font-family: "Maitree", light;
-  padding: 5% 0% 5% 0%;
-  margin: 0px;
-  }
-  .contact-block1 {
-    grid-row: 2;
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 600px) {
-  .contact {
-    display: grid;
-  
-    height:auto;
-    grid-template-columns: 70%;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    margin-left: 30px;
-     background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
-  font-family: "Maitree", light;
-  padding: 5% 0% 5% 0%;
-  margin: 0px;
-  }
-  .contact-block1 {
-    grid-row: 2;
-    padding-left: 10%;
-  }
-}
-
 
 .contact form {
   display: flex;
@@ -681,3 +471,189 @@ form textarea {
   resize: none;
 }
 /*-----------------CONTACT-----------------*/
+@media screen and (max-width: 1200px) {
+  .grille {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    justify-content: center;
+    gap: 1em;
+    margin-left: 30px;
+  }
+  .banniere {
+    height: 100%;
+  }
+  .banniere h2 {
+    font-size: 2.5em;
+    width: 500px;
+  }
+  .banniere p {
+    font-size: 1.3em;
+    width: 500px;
+  }
+  .contact {
+    display: grid;
+    max-width: 100%;
+    height: auto;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+    font-family: "Maitree", light;
+    padding: 2.5% 0% 2.5% 0%;
+    margin: 0px;
+  }
+  .sav_grille {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    justify-content: center;
+    gap: 1em;
+  }
+  .apropos_bloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .apropos_div {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 920px) {
+  .grille {
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+    gap: 1em;
+    margin-left: 30px;
+  }
+  .banniere {
+    height: 100%;
+  }
+  .banniere h2 {
+    font-size: 2em;
+    width: 350px;
+  }
+  .banniere p {
+    font-size: 1.2em;
+    width: 350px;
+  }
+  .contact {
+    display: grid;
+    height: auto;
+    grid-template-columns: 70%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 30px;
+    background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+    font-family: "Maitree", light;
+    padding: 5% 0% 5% 0%;
+    margin: 0px;
+  }
+  .contact-block1 {
+    grid-row: 2;
+  }
+  .sav_grille {
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+    gap: 1em;
+  }
+  .apropos_bloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .apropos_div {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .grille {
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+    gap: 1em;
+    margin-left: 30px;
+  }
+  .banniere {
+    height: 100%;
+  }
+  .banniere h2 {
+    font-size: 1.5em;
+    width: 200px;
+  }
+  .banniere p {
+    font-size: 0.6em;
+    width: 200px;
+  }
+  .contact {
+    display: grid;
+    height: auto;
+    grid-template-columns: 70%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 30px;
+    background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+    font-family: "Maitree", light;
+    padding: 5% 0% 5% 0%;
+    margin: 0px;
+  }
+  .contact-block1 {
+    grid-row: 2;
+    padding-left: 10%;
+  }
+  .sav_grille {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    gap: 1em;
+  }
+  .sav_grille .sav_box img {
+    width: 60px;
+    height: 60px;
+  }
+  .sav_grille .sav_box .sav_content {
+    width: 150px;
+    padding-left: 10px;
+    font-family: "Maitree", cursive;
+  }
+  .apropos_bloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .apropos_div {
+    flex-direction: column;
+  }
+  .apropos_div img {
+    width: 250px;
+    height: 250px;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .footer-content .logo-footer img {
+    width: 300px;
+  }
+  .footer-content .content {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .deuxieme_foot ul li {
+    font-size: 0.8em;
+  }
+}
