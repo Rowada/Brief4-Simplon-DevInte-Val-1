@@ -340,60 +340,64 @@ html {
   padding: 15px;
 }
 
-.oneimg {
+.apropos_img {
   background-color: white;
   color: black;
   border-radius: 20px 0 20px 0;
 }
 
-.oneimg img {
+.apropos_img img {
   border-radius: 20px 0 20px 0;
 }
 
-.oneimg p {
+.apropos_img p {
   font-size: 0.8em;
   text-align: justify;
   padding: 15px;
 }
 
-.twoimg {
-  background-color: white;
-  color: black;
-  border-radius: 20px 0 20px 0;
-}
+@media screen and (max-width: 1200px) {
+  .apropos_bloc {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
 
-.twoimg img {
-  border-radius: 20px 0 20px 0;
-}
-
-.twoimg p {
-  font-size: 0.8em;
-  text-align: justify;
-  padding: 15px;
-}
-
-.threeimg {
-  background-color: white;
-  color: black;
-  border-radius: 20px 0 20px 0;
-}
-
-.threeimg img {
-  border-radius: 20px 0 20px 0;
-}
-
-.threeimg p {
-  font-size: 0.8em;
-  text-align: justify;
-  padding: 15px;
-}
-
-@media screen and (max-width: 640px) {
-  .bloc {
-    display: block;
-    clear: both;
+  .apropos_div {
+      flex-direction: column;
   }
 }
+
+@media screen and (min-width: 600px) and (max-width: 920px) {
+  .apropos_bloc {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .apropos_div {
+      flex-direction: column;
+
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .apropos_bloc {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .apropos_div {
+      flex-direction: column;
+  }
+  .apropos_div img {
+      width: 250px;
+      height: 250px;
+      font-size: 1.3em;
+  }
+}
+
 /*---------------------------------------------------------------------------------*/
 .sav_titre {
   max-width: 1200px;
